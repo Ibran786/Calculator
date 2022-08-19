@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Calculator</title>
+</head>
+<body>
+<form action="calculator" method='POST'>
+<fieldset style="border-color:blue; border-radius:10px">
+<legend style="color:Grey">Calculator</legend>
+First Number:<input type="text" name='f' placeholder="First number" required>
+Second Number:<input type="text" name='s' placeholder="Second number" required><br><br>
+Operator:<input type="text" name='o' placeholder="+,-,*,/" required>
+<input type="submit" value="Calculate"><br><br>
+Result:&nbsp {{result}}
+</fieldset>
+</form>
+</body>
+</html>
