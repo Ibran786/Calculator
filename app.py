@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 from flask import Flask,render_template,request
 app=Flask(__name__)
 @app.route('/')
@@ -29,10 +23,6 @@ def b():
 
 if __name__=="__main__":
     app.run()
-
-
-# In[ ]:
-
 
 
 
